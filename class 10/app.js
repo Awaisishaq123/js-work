@@ -33,11 +33,11 @@
 
 
 
-// let str = "abcdefghijklimnopqrstuvwxyz1234567890!@#$%^&*()_-+|}{"
-// let check =""
-// let length= 8
+let str = "abcdefghijklimnopqrstuvwxyz1234567890!@#$%^&*()_-+|}{"
+let check =""
+let length= 8
 
-// for( var i=0; i<length; i++){
-//     check+= str[Math.floor(Math.random()*str.length) ]
-// }
-// console.log(check)
+for( var i=0; i<length; i++){
+    check+= str[Math.floor(Math.random()*str.length) ]
+}
+console.log(check)
