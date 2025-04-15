@@ -1,0 +1,22 @@
+img{
+    width: 150px;
+    
+}
+button{
+padding: 10px;
+width:100px;
+border-radius: 10px;
+background-color: rgba(6, 48, 255, 0.001);
+color: black;
+font-size: larger;
+margin: auto;
+
+}
+
+button:hover{
+    background-color: rgb(47, 72, 79);
+/* transform: scale(1.2); */
+transition: 2s;
+z-index: -1;
+}
+

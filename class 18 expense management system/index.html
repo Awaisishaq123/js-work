@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Expense managment system</h1>
+    <input type="text" name="" id="item">
+    <input type="text" name="" id="price">
+    <button onclick="additem()">Add</button>
+    <button onclick="clearall()">Clear list</button>
+
+
+    <table>
+        <thead>
+            <tr>
+                <td>item</td>
+                <td>price</td>
+            </tr>
+        </thead>
+        <tbody id="tablebody">
+        </tbody>
+    </table>
+
+    <h3>Total : <span id="total">0</span></h3>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
