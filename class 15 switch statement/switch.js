@@ -40,36 +40,7 @@
 // }
 
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Marksheet Generator</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin: 50px;
-        }
-        .result {
-            font-size: 20px;
-            font-weight: bold;
-            margin-top: 20px;
-        }
-    </style>
-</head>
-<body>
-
-    <h2>Marksheet Generator</h2>
-    
-    <label for="marks">Enter Marks (out of 100):</label>
-    <input type="number" id="marks" min="0" max="100">
-    <button onclick="generateMarksheet()">Generate</button>
-
-    <div class="result" id="output"></div>
-
-    <script>
+   
         function generateMarksheet() {
             let marks = document.getElementById("marks").value;
             let grade = "";
@@ -106,7 +77,4 @@
 
             document.getElementById("output").innerHTML = `🎓 Your Grade: <b>${grade}</b>`;
         }
-    </script>
-
-</body>
-</html>
+    

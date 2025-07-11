@@ -1,0 +1,19 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+}
+
+.w-45 {
+  width: 48%;
+}
+
+#ul li {
+  margin-bottom: 10px;
+}
+
+#ul li span {
+  float: right;
+}
+
+#ul li button {
+  margin-left: 5px;
+}

@@ -4,7 +4,3 @@ function div(){
         getdiv[i].src= "https://5.imimg.com/data5/WL/SG/MY-8835990/10w-gls-light-bulb-500x500.jpg"
     }
     }
-
-function off(){
-    
-}

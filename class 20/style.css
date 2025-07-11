@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f0f5;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .title {
+    text-align: center;
+    color: #333;
+  }
+  
+  .form-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    max-width: 1000px;
+  }
+  
+  .car-form {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+    min-width: 300px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  .car-form h2 {
+    margin-bottom: 10px;
+    color: #4a90e2;
+  }
+  
+  .car-form input,
+  .car-form button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .car-form button {
+    background-color: #e24a4a;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .car-form button:hover {
+    background-color: #fa1414;
+  }
+  
+  .cards-container {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .card {
+    background: white;
+    padding: 15px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    text-align: center;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .card h3 {
+    margin: 10px 0 5px;
+  }
+  
+  .card p {
+    margin: 5px 0;
+  }
+  
+  .card button {
+    margin: 5px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .card .edit {
+    background-color: #f0ad4e;
+    color: white;
+  }
+  
+  .card .delete {
+    background-color: #d9534f;
+    color: white;
+  }
+  

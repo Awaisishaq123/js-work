@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Todo App</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="bg-light">
+
+  <div class="container mt-5">
+    <div class="card shadow p-4 mx-auto" style="max-width: 500px;">
+      <h2 class="text-center text-primary mb-4"> Todo App</h2>
+
+      <input class="form-control mb-3" type="text" id="todo" placeholder="Enter your task here..." />
+
+      <div class="d-flex justify-content-between mb-3">
+        <button onclick="addTodo()" class="btn btn-success w-45">Add</button>
+        <button onclick="clr()" class="btn btn-danger w-45">Delete All</button>
+      </div>
+
+      <ul id="ul" class="list-group"></ul>
+    </div>
+  </div>
+
+  <!-- JS -->
+  <script src="app.js"></script>
+</body>
+
+</html>
